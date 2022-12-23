@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+    
+  h1,h2,h3,h4,h5,h6 {
+    
+    text-align: center;
+    font-family:"Audiowide", sans-serif;
+    
+    font-weight: bold;
+    
+  }
+  
+  p {
+    font-family:"Audiowide", sans-serif;
+    font-size: 20px;
+    
+    
+    
+  }
+  p::first-letter {
+    
+    font-size: xx-large;
+  }
+  
+  span {
+    float: left;
+    width: 0.7em;
+    font-size: 400%;
+    font-family: algerian, courier;
+    line-height: 80%;
+  }
+  a:link, a:visited {
+    background-color:rgba(244, 244, 245, 0.992);
+    color: rgb(131, 5, 248);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Audiowide", sans-serif;
+  }
+  
+  a:hover, a:active {
+    background-color: #CCCCFF;
+  }
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    border: 3px solid green;
+  }
+  #img1 {
+    float: left;
+  }
+  
+  table, td, th {
+    border: 1px solid black;
+    font-family: "Audiowide", sans-serif;
+    
+  }
+  
+  table {
+    border-collapse: collapse;
+    
+    border: 1px solid black;
+  }
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  #customers {
+    font-family:"Audiowide", sans-serif;;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+  
