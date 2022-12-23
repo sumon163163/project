@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+ <g fill-rule="evenodd" stroke="#00007f" stroke-width="3.478">
+  <g stroke-linecap="round" stroke-linejoin="round">
+   <path d="m20.603 52.312l9.9181-9.5897v-15.895l-9.8524 9.3269-0.0657 16.158z" fill="#003f7f"/>
+   <path d="m4.1163 35.629l9.3269-9.0642h17.078l-9.9838 9.7867-16.421-0.7225z" fill="#005fbf"/>
+  </g>
+  <rect transform="matrix(.89856 0 0 .89856 -.68572 1.2783)" x="5.1091" y="37.511" width="19.435" height="19.435" rx="1.6249" ry="1.6249" fill="#56aaff"/>
+  <g stroke-linecap="round" stroke-linejoin="round">
+   <path d="m46.585 52.312l9.9181-9.5897v-15.895l-9.8524 9.3269-0.0657 16.158z" fill="#003f7f"/>
+   <path d="m30.099 35.629l9.3269-9.0642h17.078l-9.9838 9.7867-16.421-0.7225z" fill="#005fbf"/>
+  </g>
+  <rect transform="matrix(.89856 0 0 .89856 25.297 1.2783)" x="5.1091" y="37.511" width="19.435" height="19.435" rx="1.6249" ry="1.6249" fill="#56aaff"/>
+  <g stroke-linecap="round" stroke-linejoin="round">
+   <path d="m33.362 34.85l9.9181-9.5897v-15.895l-9.8524 9.3269-0.0657 16.158z" fill="#003f7f"/>
+   <path d="m16.875 18.166l9.3269-9.0642h17.078l-9.9838 9.7867-16.421-0.7225z" fill="#005fbf"/>
+  </g>
+  <rect transform="matrix(.89856 0 0 .89856 12.073 -16.184)" x="5.1091" y="37.511" width="19.435" height="19.435" rx="1.6249" ry="1.6249" fill="#56aaff"/>
+ </g>
+</svg>
