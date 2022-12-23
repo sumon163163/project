@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INDIGO INFRA GENERAL CONTRACTING L.L.C Organizational Chart</title>
+    <link rel=icon href="fav.svg">
+    <style>
+        body{
+            font-family:"Audiowide", sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        h1,h2{
+            text-align: center;
+            color: blue;
+        }
+    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {packages:["orgchart"]});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Name');
+        data.addColumn('string', 'Manager');
+        data.addColumn('string', 'ToolTip');
+
+        // For each orgchart box, provide the name, manager, and tooltip to show.
+        data.addRows([
+          [{'v':'S. Salman Ali Bilgrami', 'f':'S. Salman Ali Bilgrami<div style="color:red; font-style:italic">General Manager</div>'},
+           '', 'General Manager'],
+          [{'v':'Md. Iftekharul Alam', 'f':'Md. Iftekharul Alam<div style="color:red; font-style:italic">Accounts</div>'},
+           'S. Salman Ali Bilgrami', 'Accounts'],
+          ['Adminstration', 'S. Salman Ali Bilgrami', ''],
+          [{'v':'Mohd Qayem', 'f':'Mohd Qayem<div style="color:red; font-style:italic">Engineer </div>'},
+           'S. Salman Ali Bilgrami', 'Engineer '],
+          ['Plant In charge', 'S. Salman Ali Bilgrami', ''],
+          [{'v':'Azhar Elahi', 'f':'Azhar Elahi<div style="color:red; font-style:italic">Surveyor  </div>'},
+           'Mohd Qayem', 'Surveyor'],
+          [{'v':'Waqas Ali', 'f':'Waqas Ali<div style="color:red; font-style:italic">Foreman </div>'},
+           'Mohd Qayem', 'Foreman'],
+           [{'v':'Jahangir Alam', 'f':'Jahangir Alam<div style="color:red; font-style:italic">Foreman </div>'},
+           'Mohd Qayem', 'Foreman'],
+          ['Chainmen', 'Azhar Elahi', ''],
+          ['Skilled Workers Group-A', 'Waqas Ali', ''],
+          ['Unskilled Workers Group-A', 'Waqas Ali', ''],
+          ['Skilled Workers Group-B', 'Jahangir Alam', ''],
+          ['Unskilled Workers Group-B', 'Jahangir Alam', ''],
+          
+        ]);
+
+        // Create the chart.
+        var chart = new google.visualization.OrgChart(document.getElementById('chart_div'));
+        // Draw the chart, setting the allowHtml option to true for the tooltips.
+        chart.draw(data, {'allowHtml':true});
+      }
+   </script>
+</head>
+<body>
+    <h1>INDIGO INFRA GENERAL CONTRACTING L.L.C </h1>
+    <h2>Organizational Chart</h2>
+    <div id="chart_div"></div>
+</body>
+</html>
